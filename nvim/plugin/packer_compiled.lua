@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/Users/webhooked/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  NeoSolarized = {
+    loaded = true,
+    path = "/Users/webhooked/.local/share/nvim/site/pack/packer/start/NeoSolarized",
+    url = "https://github.com/overcache/NeoSolarized"
+  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "/Users/webhooked/.local/share/nvim/site/pack/packer/start/cmp-buffer",
@@ -138,16 +143,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/webhooked/.local/share/nvim/site/pack/packer/start/markdown-preview.nvim",
     url = "https://github.com/iamcco/markdown-preview.nvim"
-  },
-  ["mason-lspconfig.nvim"] = {
-    loaded = true,
-    path = "/Users/webhooked/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",
-    url = "https://github.com/williamboman/mason-lspconfig.nvim"
-  },
-  ["mason.nvim"] = {
-    loaded = true,
-    path = "/Users/webhooked/.local/share/nvim/site/pack/packer/start/mason.nvim",
-    url = "https://github.com/williamboman/mason.nvim"
   },
   ["neosolarized.nvim"] = {
     loaded = true,

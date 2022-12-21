@@ -5,4 +5,5 @@ vim.opt.termguicolors = true
 require("webhooked.base")
 require("webhooked.highlights")
 require("webhooked.maps")
+require("webhooked.set")
 require("webhooked.packer")
