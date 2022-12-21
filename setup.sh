@@ -3,7 +3,11 @@
 case "$OSTYPE" in
   darwin*) 
       echo "OSX" 
-        brew install tmux
+        brew install tmux;
+        brew install nvim;
+        git clone --depth 1 https://github.com/wbthomason/packer.nvim\
+                ~/.local/share/nvim/site/pack/packer/start/packer.nvim;
+        ln -s ~/dotfiles/nvim ~/.config/nvim && ln -s ~/dotfiles/osx/.tmux.conf ~/.tmux.conf;
       ;; 
   linux*)   
       echo "LINUX" 
@@ -17,7 +21,7 @@ case "$OSTYPE" in
             dnf update && sudo dnf -y install tmux && sudo dnf install -y neovim python3-neovim;
             git clone --depth 1 https://github.com/wbthomason/packer.nvim\
                 ~/.local/share/nvim/site/pack/packer/start/packer.nvim;
-            ln -sT ~/dotfiles/nvim ~/.config/ && ln -s ~/dotfiles/.tmux.conf ~/.tmux.conf; 
+            ln -sT ~/dotfiles/nvim ~/.config/ && ln -s ~/dotfiles/linux/.tmux.conf ~/.tmux.conf; 
         ;;
 
         *)
