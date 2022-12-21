@@ -15,7 +15,6 @@ case "$OSTYPE" in
 
         fedora|rhel|centos)
             dnf update && sudo dnf -y install tmux && sudo dnf install -y neovim python3-neovim;
-            git clone git@github.com:webhooked/dotfiles.git;
             git clone --depth 1 https://github.com/wbthomason/packer.nvim\
                 ~/.local/share/nvim/site/pack/packer/start/packer.nvim;
             ln -sT ~/dotfiles/nvim ~/.config/ && ln -s ~/dotfiles/.tmux.conf ~/.tmux.conf; 
