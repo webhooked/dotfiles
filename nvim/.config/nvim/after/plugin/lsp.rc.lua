@@ -8,18 +8,6 @@ lsp.ensure_installed({
     'gopls',
     'tailwindcss',
     'volar',
-    'sumneko_lua',
-})
-
--- Fix Undefined global 'vim'
-lsp.configure('sumneko_lua', {
-    settings = {
-        Lua = {
-            diagnostics = {
-                globals = { 'vim' }
-            }
-        }
-    }
 })
 
 
