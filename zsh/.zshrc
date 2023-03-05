@@ -56,3 +56,9 @@ export GOBIN=/Users/webhooked/go/bin
 export PATH=$PATH:$GOPATH
 export PATH=$PATH:$GOROOT/bin
 export PATH=$PATH:$HOME/go/bin
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/webhooked/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/webhooked/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/webhooked/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/webhooked/google-cloud-sdk/completion.zsh.inc'; fi
