@@ -56,6 +56,7 @@ export GOBIN=/Users/webhooked/go/bin
 export PATH=$PATH:$GOPATH
 export PATH=$PATH:$GOROOT/bin
 export PATH=$PATH:$HOME/go/bin
+export N_PREFIX="$HOME/.local/n"
 
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/Users/webhooked/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/webhooked/google-cloud-sdk/path.zsh.inc'; fi
